@@ -41,26 +41,35 @@ html, body{
     
 }
 
-
 .main-container{
     overflow-y:auto;
 }
 
 .introduction{
-    font-family: 'Roboto', sans-serif;
     padding: 10px;
     line-height: 2;
 
     margin-left: 10%;
-    margin-top: 3%;
+    margin-top: 5%;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.block-styling{
+    margin-left: 10%;
+    margin-top: 5%;
+
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .introduction p{
     max-width: 50%;
+    
 }
 
 .introduction img{
