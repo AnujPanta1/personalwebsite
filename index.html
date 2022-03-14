@@ -13,27 +13,21 @@
         <div class="block">
           <h3>Technical Projects</h3>
           <div class="links">
-            <p>Slime Simulation</p>
-            <p>Chalkboard</p>
-            <p>Maze Generation</p>
+            <p onclick="scrollTo(slime)">Slime Simulation</p>
+            <p href="#chalk">Chalkboard</p>
+            <p href="#maze">Maze Generation</p>
           </div>
         </div>
         <div class="block">
           <h3>Artistic Projects</h3>
           <div class="links">
-            <p>Perlin Noise</p>
-            <p>Mettaballs</p>
-            <p>Chalkboard</p>
-            <p>Perlin Noise</p>
+            <p href="#perlin">Perlin Noise</p>
+            <p href="#balls">Mettaballs</p>
           </div>
         </div>
         <div class="block">
           <h3>About Me</h3>
           <div class="links">
-            <p>Perlin Noise</p>
-            <p>Mettaballs</p>
-            <p>Chalkboard</p>
-            <p>Perlin Noise</p>
           </div>
         </div>
       </div>
@@ -43,7 +37,48 @@
           <img src="assets/FullSizeRender.jpg"/>
         </div>
         <div class="technical block-styling">
-          <h3>Technical Works</h3>
+          <h2>Technical Works</h2>
+          <div class="body">
+            <h4 id = "slime">Physarum Slime Simulation</h4>
+            <p>- using Physarum Slime behaivor I made a recreation of slime growth.
+               The slimes naturally create a short path between themselves in a web
+                like connection. Using this property I mapped various subway maps
+                 and let the slimes figure out the best connections between subway terminals. The project
+                was coded in Java, using the Processing library.</p>
+          </div>
+          <div class="body">
+            <h4 id = "chalk">Chalkboard</h4>
+            <p>- inorder to learn more about both React and Firebase, I created Chalkboard 
+              which essentially allows you to post something to the website, which is then 
+              viewable by anyone in your "classroom". It uses react elements to display 
+              most things, with most of the reacting going twoards display the boards themselves.
+              Firebase stores who elese is in your class as well as all messages posted.
+            </p>
+          </div>
+          <div class="body">
+            <h4 id = "maze">Maze Generation + solver</h4>
+            <p>- using Kruskal's algorithm I was able to aminate the fomatino of 
+              a maze, allowing you to visually see how a maze is created. I also implemented the A* 
+              path finding algorithm which then solves the newly generated maze. The gneration and path 
+              finding is done in broswer using javascript and the animatino uses a js library called p5.js 
+            </p>
+          </div>
+        </div>
+        <div class="art block-styling">
+          <h2>Artistic Project</h2>
+          <div class="body">
+            <h4 id = "perlin">Perlin Noise</h4>
+            <p>- I used perlin noise inorder to create a noise field 
+            </p>
+          </div>
+          <div class="body">
+            <h4 id = "balls">Mettaballs</h4>
+            <p>- using Kruskal's algorithm I was able to aminate the fomatino of 
+              a maze, allowing you to visually see how a maze is created. I also implemented the A* 
+              path finding algorithm which then solves the newly generated maze. The gneration and path 
+              finding is done in broswer using javascript and the animatino uses a js library called p5.js 
+            </p>
+          </div>
         </div>
       </div>
     </div>

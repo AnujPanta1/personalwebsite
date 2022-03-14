@@ -3,10 +3,27 @@
 html, body{
     margin: 0;
     padding: 0;   
+    background-color: whitesmoke;
 }
 
 .wrapper{
     display: flex;
+}
+
+
+img{
+    height: auto; 
+    width: auto; 
+
+}
+
+
+.block-styling{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    max-width: 80%;
+    line-height: 1.6;
 }
 
 .side-bar{
@@ -14,10 +31,10 @@ html, body{
     padding: 1% 2% 0% 2%;
     display: flex;
     flex-direction: column;
-    width: fit-content;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     margin: 0;
+    min-width: 150px;
 }
 
 .side-bar .name-title{
@@ -43,12 +60,12 @@ html, body{
 
 .main-container{
     overflow-y:auto;
+    height: 100vh;
 }
 
 .introduction{
     padding: 10px;
-    line-height: 2;
-
+    line-height: 2.5 !important;
     margin-left: 10%;
     margin-top: 5%;
 
@@ -57,26 +74,18 @@ html, body{
     justify-content: space-between;
 }
 
-.block-styling{
-    margin-left: 10%;
-    margin-top: 5%;
-
-    display: flex;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-
-}
-
 .introduction p{
     max-width: 50%;
-    
 }
 
 .introduction img{
-    height: auto; 
-    width: auto; 
     max-width: 400px; 
     max-height: 400px;
     border-radius: 100%;
     float:right;
+}
+
+.technical .body{
+    line-height: 2;
+    margin-bottom: 6%;
 }
